@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%20-%20%E5%89%AF%E6%9C%AC%20(2)/hellow/</loc>
+    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%20-%20%E5%89%AF%E6%9C%AC/hellow/</loc>
+    
+    <lastmod>2020-01-16T17:03:33.785Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%20-%20%E5%89%AF%E6%9C%AC%20(3)/hellow/</loc>
     
     <lastmod>2020-01-16T17:03:33.785Z</lastmod>
     
@@ -16,14 +23,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%20-%20%E5%89%AF%E6%9C%AC/hellow/</loc>
-    
-    <lastmod>2020-01-16T17:03:33.785Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%20-%20%E5%89%AF%E6%9C%AC%20(3)/hellow/</loc>
+    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB%20-%20%E5%89%AF%E6%9C%AC%20(2)/hellow/</loc>
     
     <lastmod>2020-01-16T17:03:33.785Z</lastmod>
     
