@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/wiki/00_index/</loc>
+    <loc>http://yoursite.com/wiki/index/</loc>
     
     <lastmod>2020-01-17T04:49:50.788Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/01_%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/hellow/</loc>
+    <loc>http://yoursite.com/wiki/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/hellow/</loc>
     
     <lastmod>2020-01-16T17:03:33.785Z</lastmod>
     
