@@ -337,7 +337,17 @@
 
 
     
-    
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '<API_ID>',
+            appKey: '<API_Key>'
+        })
+    </script>
+
 
 
 
