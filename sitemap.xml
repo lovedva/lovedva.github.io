@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/08-Linux/</loc>
+    
+    <lastmod>2020-01-23T13:22:46.090Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/wiki/Note%20Collections/%E7%BB%98%E5%9B%BE/%E7%BB%98%E5%9B%BE/</loc>
     
     <lastmod>2020-01-23T13:02:51.975Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/07-Python/</loc>
+    
+    <lastmod>2020-01-23T12:55:59.313Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/05-markdown/</loc>
+    
+    <lastmod>2020-01-23T12:53:01.278Z</lastmod>
     
   </url>
   
@@ -227,6 +248,20 @@
   
   <url>
     <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/04-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E7%BB%A7%E6%89%BF&%E5%A4%9A%E6%80%81/01-%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2019-09-19T00:06:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/04-Git/</loc>
+    
+    <lastmod>2019-09-19T00:06:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/03-%E6%89%B9%E5%A4%84%E7%90%86/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
     
