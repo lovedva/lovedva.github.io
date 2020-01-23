@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>树莓派 | Dva,爱你哦～</title>
+    
+    
+        <meta name="keywords" content="好饿" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="[TOC] 树莓派基础配置信息系统镜像：https:&#x2F;&#x2F;www.raspberrypi.org&#x2F;downloads&#x2F;VNCviewer：https:&#x2F;&#x2F;www.realvnc.com&#x2F;en&#x2F;connect&#x2F;download&#x2F;viewer&#x2F;镜像写入工具（win32diskimager）（win7）：https:&#x2F;&#x2F;sourceforge.net&#x2F;projects&#x2F;win32diskimager&#x2F;Wi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="树莓派">
+<meta property="og:url" content="http://yoursite.com/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/04-%E6%A0%91%E8%8E%93%E6%B4%BE/index.html">
+<meta property="og:site_name" content="Dva,爱你哦～">
+<meta property="og:description" content="[TOC] 树莓派基础配置信息系统镜像：https:&#x2F;&#x2F;www.raspberrypi.org&#x2F;downloads&#x2F;VNCviewer：https:&#x2F;&#x2F;www.realvnc.com&#x2F;en&#x2F;connect&#x2F;download&#x2F;viewer&#x2F;镜像写入工具（win32diskimager）（win7）：https:&#x2F;&#x2F;sourceforge.net&#x2F;projects&#x2F;win32diskimager&#x2F;Wi">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2019-09-19T00:06:58.608Z">
+<meta property="article:modified_time" content="2020-01-23T13:00:36.489Z">
+<meta property="article:author" content="GouGou">
+<meta property="article:tag" content="好饿">
+<meta name="twitter:card" content="summary">
+    
+
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+<script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Dva,爱你哦～" type="application/atom+xml">
+</head>
+
+<body>
+
+  <script type="text/javascript" src="/click.js"></script>
+
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Dva,爱你哦～</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">首页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">关于</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">首页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>categories</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            Note Collections
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            JavaEE 学习笔记
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            01-1.基础语法
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/01-1.1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%85%E8%A6%81%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%EF%BC%88IDE&JavaWeb%EF%BC%89/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/02-1.2%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/03-1.3Java%E5%85%A5%E9%97%A8/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/04-1.4%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%8A%E8%BD%AC%E6%8D%A2/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/05-1.5%E8%BF%90%E7%AE%97%E7%AC%A6&%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/06-1.6%E9%94%AE%E7%9B%98%E5%BD%95%E5%85%A5/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/07-1.7%20%E9%80%89%E6%8B%A9%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/08-1.8%20%E5%BE%AA%E7%8E%AF%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/09-1.9%20%E9%9A%8F%E6%9C%BA%E6%95%B0/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/10-1.10%20%E6%95%B0%E7%BB%84/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/11-1.11%20Java%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/12-1.12%20%E5%87%BD%E6%95%B0/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/13-1.13%20%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/14-1.14%20%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%BB%83%E4%B9%A0/"></a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            02-2.面向对象-封装
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/01-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%80%9D%E6%83%B3%E4%BB%8B%E7%BB%8D/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/03-%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/02-%E7%BC%96%E5%86%99%E7%B1%BB/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/04-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E5%92%8C%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/05-private%E5%85%B3%E9%94%AE%E5%AD%97/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/06-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E7%A7%81%E6%9C%89%E7%9A%84%E6%A0%87%E5%87%86%E4%BB%A3%E7%A0%81/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/07-this%E5%85%B3%E9%94%AE%E5%AD%97/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/08-%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/09-%E6%A0%87%E5%87%86%E7%B1%BB%E5%86%99%E6%B3%95%E5%92%8C%E6%B5%8B%E8%AF%95/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/10-%E7%B1%BB%E5%90%8D%E4%BD%9C%E4%B8%BA%E5%BD%A2%E5%BC%8F%E5%8F%82%E6%95%B0%E5%92%8C%E8%BF%94%E5%9B%9E%E5%80%BC/"></a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            03-常用API
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/03-%E5%B8%B8%E7%94%A8API/01-API-StringBuilder/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/03-%E5%B8%B8%E7%94%A8API/03-IO%E6%B5%81/"></a></li>  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/03-%E5%B8%B8%E7%94%A8API/02-%E9%9B%86%E5%90%88ArryList/"></a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            04-面向对象-继承&多态
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/04-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E7%BB%A7%E6%89%BF&%E5%A4%9A%E6%80%81/01-%E7%AC%94%E8%AE%B0/"></a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            码农
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/08-Linux/">Linux</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/wiki/Note%20Collections/03-%E6%89%B9%E5%A4%84%E7%90%86/"></a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            Raspberry Piの初期設定と使い方
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Raspberry%20Pi%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9/02-%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A/"></a></li>  <li class="file"><a href="/wiki/Raspberry%20Pi%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9/01-Install%20OS/"></a></li>  <li class="file"><a href="/wiki/Raspberry%20Pi%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9/03-%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%83%BC%E8%A8%AD%E5%AE%9A/">プロキシー設定</a></li>  <li class="file"><a href="/wiki/Raspberry%20Pi%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9/05-RasPi%20Leaf%20%E5%8D%B0%E5%88%B7%E7%94%A8/"></a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/05-markdown/">Markdown</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/04-Git/">Note Collections/码农/04-Git</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%A0%81%E5%86%9C/07-Python/">Python</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/00-%E6%A0%91%E8%8E%93%E6%B4%BE/06-%E6%A0%91%E8%8E%93%E6%B4%BE%E6%97%A0%E6%98%BE%E7%A4%BA%E5%99%A8%E4%B8%B2%E5%8F%A3%E6%8E%A7%E5%88%B6%E6%93%8D%E4%BD%9C%E5%88%9D%E5%A7%8B%E8%AE%BE%E5%AE%9A/">Note Collections/硬件/00-树莓派/06-树莓派无显示器串口控制操作初始设定</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/02-ds18b20%E6%B8%A9%E5%BA%A6%E4%BC%A0%E6%84%9F%E5%99%A8/">ds18b20 温度传感器</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/03-PFRseries%E7%94%B5%E6%BA%90/">PFR series电源</a></li>  <li class="file active"><a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/04-%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/06-Stm32%E5%8D%95%E7%89%87%E6%9C%BA/">Stm32 单片机</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%AA%92%E6%81%AF%E7%9A%84%E6%93%8D%E4%BD%9C/04-%E6%95%B0%E5%AD%97%E7%94%B5%E4%BD%8D%E5%99%A8%E6%8E%A7%E5%88%B6%E8%AF%B4%E6%98%8E/">Note Collections/窒息的操作/04-数字电位器控制说明</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%AA%92%E6%81%AF%E7%9A%84%E6%93%8D%E4%BD%9C/05-%E9%A9%AC%E8%BE%BE%E6%8E%A7%E5%88%B6%E6%96%B9%E6%A1%88%EF%BC%88%E6%8C%89%E9%92%AE+%E8%93%9D%E7%89%99%EF%BC%89/">Note Collections/窒息的操作/05-马达控制方案（按钮+蓝牙）</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%AA%92%E6%81%AF%E7%9A%84%E6%93%8D%E4%BD%9C/06-PID%E7%AE%97%E6%B3%95%E5%8F%8A%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E7%8E%B0/">Note Collections/窒息的操作/06-PID算法及单片机实现</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%AA%92%E6%81%AF%E7%9A%84%E6%93%8D%E4%BD%9C/07-%E8%AE%B0%E5%BD%95/">Note Collections/窒息的操作/07-记录</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%AA%92%E6%81%AF%E7%9A%84%E6%93%8D%E4%BD%9C/08-%E6%A0%91%E8%8E%93%E6%B4%BE%E6%9C%8D%E5%8A%A1%E5%99%A8/">Note Collections/窒息的操作/08-树莓派服务器</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%AA%92%E6%81%AF%E7%9A%84%E6%93%8D%E4%BD%9C/09-%E7%94%B5%E8%B7%AF%E5%9B%BE/">Note Collections/窒息的操作/09-电路图</a></li>  <li class="file"><a href="/wiki/Raspberry%20Pi%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9/00-%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E8%AA%AC%E6%98%8E/">Raspberry Piの初期設定と使い方/00-専門用語の説明</a></li>  <li class="file"><a href="/wiki/Raspberry%20Pi%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9/04-%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E6%93%8D%E4%BD%9C/">Raspberry Piの初期設定と使い方/04-リモート操作</a></li>  <li class="file"><a href="/wiki/index/">Note Collections ：Dva 爱你哦~</a></li>  <li class="file"><a href="/wiki/Note%20Collections/%E7%BB%98%E5%9B%BE/%E7%BB%98%E5%9B%BE/">绘图</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-Note Collections/硬件/04-树莓派" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/04-%E6%A0%91%E8%8E%93%E6%B4%BE/">
+            <time datetime="2019-09-19T00:06:58.608Z" itemprop="datePublished">2019-09-19</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/syjsxxjy/null/raw/null/source/_posts/Note Collections/硬件/04-树莓派.md' target="_blank" rel="noopener"> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/syjsxxjy/null/edit/null/source/_posts/Note Collections/硬件/04-树莓派.md' target="_blank" rel="noopener"> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/syjsxxjy/null/commits/null/source/_posts/Note Collections/硬件/04-树莓派.md' target="_blank" rel="noopener"> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            树莓派
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p>[TOC]</p>
+<h3 id="树莓派"><a href="#树莓派" class="headerlink" title="树莓派"></a>树莓派</h3><h4 id="基础配置信息"><a href="#基础配置信息" class="headerlink" title="基础配置信息"></a>基础配置信息</h4><p>系统镜像：<a href="https://www.raspberrypi.org/downloads/" target="_blank" rel="noopener">https://www.raspberrypi.org/downloads/</a><br>VNCviewer：<a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank" rel="noopener">https://www.realvnc.com/en/connect/download/viewer/</a><br>镜像写入工具（win32diskimager）（win7）：<a href="https://sourceforge.net/projects/win32diskimager/" target="_blank" rel="noopener">https://sourceforge.net/projects/win32diskimager/</a><br>Wifi远控设定：<a href="https://qiita.com/Spike_Han/items/d1ad4e53373935701b1a" target="_blank" rel="noopener">https://qiita.com/Spike_Han/items/d1ad4e53373935701b1a</a><br>网络配置：<a href="https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md" target="_blank" rel="noopener">https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md</a><br>AP设置：<a href="https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md#internet-sharing" target="_blank" rel="noopener">https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md#internet-sharing</a><br>　　　　raspi-config设置里，预设网络interface设置为否，不然报错 eth0接口不存在。<br>Vim教程：<a href="http://www.runoob.com/linux/linux-vim.html" target="_blank" rel="noopener">http://www.runoob.com/linux/linux-vim.html</a><br>串口数据线连接方式：绿色-gpio15 黄色-gpio14  </p>
+<h4 id="进程相关"><a href="#进程相关" class="headerlink" title="进程相关"></a>进程相关</h4><p>按crl+Z把进程放入后台，然后杀掉<br>ps -l   列出与本次登录有关的进程信息；<br>ps -aux   查询内存中进程信息；<br>ps -aux | grep <strong>*   查询*</strong>进程的详细信息；<br>top   查看内存中进程的动态信息；<br>kill -9 pid   杀死进程。  </p>
+<h4 id="Flask服务器"><a href="#Flask服务器" class="headerlink" title="Flask服务器"></a>Flask服务器</h4><p>Flask 服务器基础配置：<a href="https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/8" target="_blank" rel="noopener">https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/8</a><br>Flask 文档：　　<br><a href="https://dormousehole.readthedocs.io/en/latest/tutorial/layout.html" target="_blank" rel="noopener">https://dormousehole.readthedocs.io/en/latest/tutorial/layout.html</a>  　　<br><a href="http://flask.pocoo.org/" target="_blank" rel="noopener">http://flask.pocoo.org/</a><br>Alternatively you can use python -m flask:  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export FLASK_APP&#x3D;piserver</span><br><span class="line">export FLASK_ENV&#x3D;development</span><br><span class="line">python -m flask run --host&#x3D;0.0.0.0</span><br><span class="line">* Running on http:&#x2F;&#x2F;127.0.0.1:5000&#x2F;</span><br></pre></td></tr></table></figure>
+<h4 id="开机自动运行"><a href="#开机自动运行" class="headerlink" title="开机自动运行"></a>开机自动运行</h4><p>sudo crontab -e<br>@reboot cd /home/pi/shabi/piserver; sudo python app.py &amp;</p>
+<p>####jquery Ajax<br>js-&gt;post/get-&gt;py脚本控制gpio-&gt;脚本返回response结果-&gt;ajax/js读取结果-&gt;显示到页面  </p>
+<h4 id="git"><a href="#git" class="headerlink" title="git"></a>git</h4><p>使用https的url设置远程git，不要用ssh。  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">git init  </span><br><span class="line">git status    </span><br><span class="line">git add --all    </span><br><span class="line">git commit -am &#39;add json rules and python program&#39;    </span><br><span class="line">git remote add origin：https</span><br><span class="line">git push -u origin master</span><br><span class="line">git push origin master</span><br><span class="line"></span><br><span class="line">git log snitch-sniffer.py</span><br><span class="line">git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d snitch-sniffer.py</span><br><span class="line">git commit -am &#39;restore find function&#39;</span><br></pre></td></tr></table></figure>
+<h4 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h4><p>全选:ggVG<br>把文件类型设为html，然后全选代码执行”=”号<br>emmt:<br>在输入模式下，按下ctrl+y然后按下”，”  </p>
+<h4 id="utf8设定"><a href="#utf8设定" class="headerlink" title="utf8设定"></a>utf8设定</h4><p>在最前面加上</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;usr&#x2F;bin&#x2F;env python</span><br><span class="line"># -*- coding: utf-8 -*-</span><br></pre></td></tr></table></figure>
+<h4 id="树莓派输出电流电压设置"><a href="#树莓派输出电流电压设置" class="headerlink" title="树莓派输出电流电压设置"></a>树莓派输出电流电压设置</h4><p>一、打开config.txt文件<br>在底部加上<br>max_usb_current=1<br>此时输出电流最大为1.2A  </p>
+<h3 id="GPIO工作方式"><a href="#GPIO工作方式" class="headerlink" title="GPIO工作方式"></a>GPIO工作方式</h3><p>pin接地=0，接电源=1。什么都不接=电压跳跃。<br><a href="https://raspberrypi.stackexchange.com/questions/14680/raspberry-pi-gpio-input-pins-give-random-values" target="_blank" rel="noopener">https://raspberrypi.stackexchange.com/questions/14680/raspberry-pi-gpio-input-pins-give-random-values</a></p>
+<h3 id="VNC"><a href="#VNC" class="headerlink" title="VNC"></a>VNC</h3><p>启动：vncserver :1<br>用系统用户名和密码登录（pi ras）<br>远程复制粘贴：<a href="https://raspberrypi.stackexchange.com/questions/4474/tightvnc-copy-paste-between-local-os-and-raspberry-pi" target="_blank" rel="noopener">https://raspberrypi.stackexchange.com/questions/4474/tightvnc-copy-paste-between-local-os-and-raspberry-pi</a></p>
+<h4 id="按键防抖"><a href="#按键防抖" class="headerlink" title="按键防抖"></a>按键防抖</h4><p><a href="http://www.eeworld.com.cn/mcu/2015/1109/article_23492.html" target="_blank" rel="noopener">http://www.eeworld.com.cn/mcu/2015/1109/article_23492.html</a>  </p>
+<h4 id="Joy-Stick-键值"><a href="#Joy-Stick-键值" class="headerlink" title="Joy-Stick 键值"></a>Joy-Stick 键值</h4><p>A:0 B:2 X:1 Y:3<br>HOME:12 SL:4 SR:5 PLUS:9<br>R:14 ZR:15  </p>
+<h3 id="Pi-Zero"><a href="#Pi-Zero" class="headerlink" title="Pi Zero"></a>Pi Zero</h3><p>官网：<a href="https://www.raspberrypi.org/products/raspberry-pi-zero-w/" target="_blank" rel="noopener">https://www.raspberrypi.org/products/raspberry-pi-zero-w/</a><br>针脚详细：<a href="https://pinout.xyz/pinout/serial_pi_zero" target="_blank" rel="noopener">https://pinout.xyz/pinout/serial_pi_zero</a><br>禁止串口登录（用串口连接其它外设时）：<a href="https://www.abelectronics.co.uk/kb/article/20/raspberry-pi-serial-port-usage" target="_blank" rel="noopener">https://www.abelectronics.co.uk/kb/article/20/raspberry-pi-serial-port-usage</a>  </p>
+<p>####vim配置文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br></pre></td><td class="code"><pre><span class="line">set nocompatible              &quot; be iMproved, required</span><br><span class="line">filetype off                  &quot; required</span><br><span class="line"></span><br><span class="line">&quot; set the runtime path to include Vundle and initialize</span><br><span class="line">set rtp+&#x3D;~&#x2F;.vim&#x2F;bundle&#x2F;Vundle.vim</span><br><span class="line">call vundle#begin()</span><br><span class="line">&quot; alternatively, pass a path where Vundle should install plugins</span><br><span class="line">&quot;call vundle#begin(&#39;~&#x2F;some&#x2F;path&#x2F;here&#39;)</span><br><span class="line"></span><br><span class="line">&quot; let Vundle manage Vundle, required</span><br><span class="line">Plugin &#39;VundleVim&#x2F;Vundle.vim&#39;</span><br><span class="line"></span><br><span class="line">&quot; The following are examples of different formats supported.</span><br><span class="line">&quot; Keep Plugin commands between vundle#begin&#x2F;end.</span><br><span class="line">&quot; plugin on GitHub repo</span><br><span class="line">Plugin &#39;tpope&#x2F;vim-fugitive&#39;</span><br><span class="line">&quot; plugin from http:&#x2F;&#x2F;vim-scripts.org&#x2F;vim&#x2F;scripts.html</span><br><span class="line">&quot; Plugin &#39;L9&#39;</span><br><span class="line">&quot; Git plugin not hosted on GitHub</span><br><span class="line">Plugin &#39;git:&#x2F;&#x2F;git.wincent.com&#x2F;command-t.git&#39;</span><br><span class="line">&quot; git repos on your local machine (i.e. when working on your own plugin)</span><br><span class="line">Plugin &#39;file:&#x2F;&#x2F;&#x2F;home&#x2F;gmarik&#x2F;path&#x2F;to&#x2F;plugin&#39;</span><br><span class="line">&quot; The sparkup vim script is in a subdirectory of this repo called vim.</span><br><span class="line">&quot; Pass the path to set the runtimepath properly.</span><br><span class="line">Plugin &#39;rstacruz&#x2F;sparkup&#39;, &#123;&#39;rtp&#39;: &#39;vim&#x2F;&#39;&#125;</span><br><span class="line">&quot; Install L9 and avoid a Naming conflict if you&#39;ve already installed a</span><br><span class="line">&quot; different version somewhere else.</span><br><span class="line">&quot; Plugin &#39;ascenator&#x2F;L9&#39;, &#123;&#39;name&#39;: &#39;newL9&#39;&#125;</span><br><span class="line"></span><br><span class="line">&quot; All of your Plugins must be added before the following line</span><br><span class="line">call vundle#end()            &quot; required</span><br><span class="line">filetype plugin indent on    &quot; required</span><br><span class="line">&quot; To ignore plugin indent changes, instead use:</span><br><span class="line">&quot;filetype plugin on</span><br><span class="line">&quot;</span><br><span class="line">&quot; Brief help</span><br><span class="line">&quot; :PluginList       - lists configured plugins</span><br><span class="line">&quot; :PluginInstall    - installs plugins; append &#96;!&#96; to update or just :PluginUpdate</span><br><span class="line">&quot; :PluginSearch foo - searches for foo; append &#96;!&#96; to refresh local cache</span><br><span class="line">&quot; :PluginClean      - confirms removal of unused plugins; append &#96;!&#96; to auto-approve removal</span><br><span class="line">&quot;</span><br><span class="line">&quot; see :h vundle for more details or wiki for FAQ</span><br><span class="line">&quot; Put your non-Plugin stuff after this line</span><br><span class="line"></span><br><span class="line">au BufNewFile,BufRead *.py</span><br><span class="line">	\ set tabstop&#x3D;4</span><br><span class="line">	\ set softtabstop&#x3D;4</span><br><span class="line">	\ set shiftwidth&#x3D;4</span><br><span class="line">	\ set textwidth&#x3D;79</span><br><span class="line">	\ set expandtab</span><br><span class="line">	\ set autoindent</span><br><span class="line">	\ set fileformat&#x3D;unix</span><br><span class="line"></span><br><span class="line">au BufNewFile,BufRead *.js, *.html, *.css</span><br><span class="line">	\ set tabstop&#x3D;2</span><br><span class="line">	\ set softtabstop&#x3D;2</span><br><span class="line">	\ set shiftwidth&#x3D;2</span><br><span class="line"></span><br><span class="line">&quot;寻找全局配置文件</span><br><span class="line"> let g:ycm_global_ycm_extra_conf &#x3D; &#39;~&#x2F;.vim&#x2F;bundle&#x2F;YouCompleteMe&#x2F;cpp&#x2F;ycm&#x2F;.ycm_extra_conf.py&#39;</span><br><span class="line"> &quot; 禁用syntastic来对python检查</span><br><span class="line"> let g:syntastic_ignore_files&#x3D;[&quot;.*\.py$&quot;]</span><br><span class="line"> &quot; 使用ctags生成的tags文件</span><br><span class="line"> let g:ycm_collect_identifiers_from_tag_files &#x3D; 1</span><br><span class="line"> &quot; 开启语义补全</span><br><span class="line"> &quot; 修改对C语言的补全快捷键，默认是CTRL+space，修改为ALT+;未测出效果</span><br><span class="line"> &quot;let g:ycm_key_invoke_completion &#x3D; &#39;&lt;M-;&gt;&#39;</span><br><span class="line"> &quot; 设置转到定义处的快捷键为ALT+G，未测出效果</span><br><span class="line"> &quot;nmap &lt;M-g&gt; :YcmCompleter GoToDefinitionElseDeclaration &#x3D;expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;</span><br><span class="line"> &quot;关键字补全</span><br><span class="line"> &quot;let g:ycm_seed_identifiers_with_syntax &#x3D; 1</span><br><span class="line"> &quot; 在接受补全后不分裂出一个窗口显示接受的项</span><br><span class="line"> set completeopt-&#x3D;preview</span><br><span class="line"> &quot; 让补全行为与一般的IDE一致</span><br><span class="line"> set completeopt&#x3D;longest,menu</span><br><span class="line"> &quot; 不显示开启vim时检查ycm_extra_conf文件的信息</span><br><span class="line"> let g:ycm_confirm_extra_conf&#x3D;0</span><br><span class="line"> &quot; 每次重新生成匹配项，禁止缓存匹配项</span><br><span class="line"> let g:ycm_cache_omnifunc&#x3D;0</span><br><span class="line"> &quot; 在注释中也可以补全</span><br><span class="line"> let g:ycm_complete_in_comments&#x3D;1</span><br><span class="line"> &quot; 输入第一个字符就开始补全</span><br><span class="line"> let g:ycm_min_num_of_chars_for_completion&#x3D;1</span><br><span class="line"> &quot; 错误标识符</span><br><span class="line"> let g:ycm_error_symbol&#x3D;&#39;&gt;&gt;&#39;</span><br><span class="line"> &quot; 警告标识符</span><br><span class="line"> let g:ycm_warning_symbol&#x3D;&#39;&gt;*&#39;</span><br><span class="line"> &quot; 不查询ultisnips提供的代码模板补全，如果需要，设置成1即可</span><br><span class="line"> &quot; let g:ycm_use_ultisnips_completer&#x3D;0</span><br><span class="line"></span><br><span class="line">Plugin &#39;vim-scripts&#x2F;indentpython.vim&#39;</span><br><span class="line">Plugin &#39;scrooloose&#x2F;syntastic&#39;</span><br><span class="line">Plugin &#39;nvie&#x2F;vim-flake8&#39;</span><br><span class="line">Plugin &#39;Lokaltog&#x2F;vim-powerline&#39;</span><br><span class="line">Plugin &#39;scrooloose&#x2F;nerdtree&#39;</span><br><span class="line">Plugin &#39;Yggdroot&#x2F;indentLine&#39;</span><br><span class="line">Plugin &#39;jiangmiao&#x2F;auto-pairs&#39;</span><br><span class="line">Plugin &#39;tell-k&#x2F;vim-autopep8&#39;</span><br><span class="line">Plugin &#39;scrooloose&#x2F;nerdcommenter&#39;</span><br><span class="line">Plugin &#39;Valloric&#x2F;YouCompleteMe&#39;</span><br><span class="line">Plugin &#39;mattn&#x2F;emmet-vim&#39;</span><br><span class="line"></span><br><span class="line">&quot;Plugin &#39;https:&#x2F;&#x2F;github.com&#x2F;scrooloose&#x2F;nerdtree&#39;</span><br><span class="line">nnoremap &lt;F3&gt; :NERDTreeToggle&lt;CR&gt;</span><br><span class="line">autocmd bufenter * if (winnr(&quot;$&quot;) &#x3D;&#x3D; 1 &amp;&amp; exists(&quot;b:NERDTree&quot;) &amp;&amp; b:NERDTree.isTabTree()) | q | endif</span><br><span class="line"></span><br><span class="line">&quot;缩进指示线&quot;</span><br><span class="line">let g:indentLine_char&#x3D;&#39;┆&#39;</span><br><span class="line">let g:indentLine_enabled &#x3D; 1</span><br><span class="line"></span><br><span class="line">&quot;&quot;autopep8设置&quot;</span><br><span class="line">let g:autopep8_disable_show_diff&#x3D;1</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">map &lt;F4&gt; &lt;leader&gt;ci &lt;CR&gt;</span><br><span class="line"></span><br><span class="line">let python_highlight_all&#x3D;1</span><br><span class="line"></span><br><span class="line">syntax on</span><br><span class="line"></span><br><span class="line">set encoding&#x3D;utf-8</span><br><span class="line">set nu</span><br></pre></td></tr></table></figure>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/03-PFRseries%E7%94%B5%E6%BA%90/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    PFR series电源
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/Note%20Collections/%E7%A1%AC%E4%BB%B6/02-ds18b20%E6%B8%A9%E5%BA%A6%E4%BC%A0%E6%84%9F%E5%99%A8/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">ds18b20 温度传感器</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'h6l3YW9vI8fam1QgPnYdFrD7-gzGzoHsz',
+            appKey: '6OBGUfNoleeyMyiF5uaJRsq6',
+            placeholder: '来～啊，快♂活呀～ · Comment Here · コメント',
+            avatar: 'mm',
+            lang: 'en',
+        })
+    </script>
+
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            GouGou &copy; 2020 
+            <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten" target="_blank" rel="noopener">wikitten</a>
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+    </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+</html>
