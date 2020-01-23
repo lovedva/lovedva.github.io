@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/wiki/Raspberry%20Pi/01-pi/</loc>
+    
+    <lastmod>2020-01-23T11:59:12.564Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/wiki/index/</loc>
     
     <lastmod>2020-01-17T04:49:50.788Z</lastmod>
