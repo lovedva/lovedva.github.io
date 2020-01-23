@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/Folder%201/file1/</loc>
+    
+    <lastmod>2020-01-23T12:00:58.777Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/wiki/Raspberry%20Pi/01-pi/</loc>
     
     <lastmod>2020-01-23T12:00:22.034Z</lastmod>
