@@ -94,30 +94,6 @@
   </entry>
   
   <entry>
-    <title>プロキシー設定</title>
-    <link href="http://yoursite.com/wiki/Raspberry_Pi_PCR/%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%83%BC%E8%A8%AD%E5%AE%9A/"/>
-    <id>http://yoursite.com/wiki/Raspberry_Pi_PCR/%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%83%BC%E8%A8%AD%E5%AE%9A/</id>
-    <published>2020-01-06T07:50:10.712Z</published>
-    <updated>2020-01-23T13:42:13.680Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="プロキシー設定"><a href="#プロキシー設定" class="headerlink" title="プロキシー設定"></a>プロキシー設定</h2><h4 id="1-次のコマンドを使って「-etc-apt-apt-conf-d-」ディレクトリに入る"><a href="#1-次のコマンドを使って「-etc-apt-apt-conf-d-」ディレクトリに入る" class="headerlink" title="1.次のコマンドを使って「/etc/apt/apt.conf.d/」ディレクトリに入る"></a>1.次のコマンドを使って「/etc/apt/apt.conf.d/」ディレクトリに入る</h4><p><code>cd /etc/apt/apt.conf.d/</code></p><h4 id="2-「10proxy」という名前のファイルを作る"><a href="#2-「10proxy」という名前のファイルを作る" class="headerlink" title="2.「10proxy」という名前のファイルを作る"></a>2.「10proxy」という名前のファイルを作る</h4><p>nanoプログラムを利用して、次のコマンドでファイルを作る。</p><p><code>sudo nano /etc/apt/apt.conf.d/10proxy</code></p><h4 id="3-プロキシーの設定を入力する"><a href="#3-プロキシーの設定を入力する" class="headerlink" title="3.プロキシーの設定を入力する"></a>3.プロキシーの設定を入力する</h4><p>プロキシーの設定テキストを”10proxy”ファイルに入れる。</p><p><code>Acquire::http::Proxy &quot;http://202.18.172.35:80&quot;;</code></p><h4 id="4-ファイルを保存する"><a href="#4-ファイルを保存する" class="headerlink" title="4.ファイルを保存する"></a>4.ファイルを保存する</h4><p>「Crl」キーと「O」キーを同時に押し、ファイル名を確認して「Enter」キーで保存する。<br>「Crl」キーと「X」キーを同時に押してnanoを終了、ターミナルに戻る。</p><h4 id="5-RaspberryPiを再起動する"><a href="#5-RaspberryPiを再起動する" class="headerlink" title="5.RaspberryPiを再起動する"></a>5.RaspberryPiを再起動する</h4><h2 id="再起動でプロキシーの設定を有効させる。"><a href="#再起動でプロキシーの設定を有効させる。" class="headerlink" title="再起動でプロキシーの設定を有効させる。"></a>再起動でプロキシーの設定を有効させる。</h2><h5 id="References-参考文献："><a href="#References-参考文献：" class="headerlink" title="References　参考文献："></a>References　参考文献：</h5><p><a href="http://mrchrisjbailey.co.uk/2013/03/19/connecting-raspberry-pi-through-school-proxy/" target="_blank" rel="noopener">http://mrchrisjbailey.co.uk/2013/03/19/connecting-raspberry-pi-through-school-proxy/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;プロキシー設定&quot;&gt;&lt;a href=&quot;#プロキシー設定&quot; class=&quot;headerlink&quot; title=&quot;プロキシー設定&quot;&gt;&lt;/a&gt;プロキシー設定&lt;/h2&gt;&lt;h4 id=&quot;1-次のコマンドを使って「-etc-apt-apt-conf-d-」ディレクトリに入る&quot;&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="Raspberry_Pi_PCR" scheme="http://yoursite.com/categories/Raspberry-Pi-PCR/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>リモート操作</title>
     <link href="http://yoursite.com/wiki/Raspberry_Pi_PCR/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E6%93%8D%E4%BD%9C/"/>
     <id>http://yoursite.com/wiki/Raspberry_Pi_PCR/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E6%93%8D%E4%BD%9C/</id>
@@ -132,6 +108,30 @@
       
         &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&quot;リモート操作&quot;&gt;&lt;a href=&quot;#リモート操作&quot; class=&quot;headerlink&quot; title=&quot;リモート操作&quot;&gt;&lt;/a&gt;リモート操作&lt;/h2&gt;&lt;h3 id=&quot;リモート操作の初期設定&quot;&gt;&lt;a href=&quot;#リモート操作の初期設定&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="Raspberry_Pi_PCR" scheme="http://yoursite.com/categories/Raspberry-Pi-PCR/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>プロキシー設定</title>
+    <link href="http://yoursite.com/wiki/Raspberry_Pi_PCR/%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%83%BC%E8%A8%AD%E5%AE%9A/"/>
+    <id>http://yoursite.com/wiki/Raspberry_Pi_PCR/%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7%E3%83%BC%E8%A8%AD%E5%AE%9A/</id>
+    <published>2020-01-06T07:50:10.712Z</published>
+    <updated>2020-01-23T13:42:13.680Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="プロキシー設定"><a href="#プロキシー設定" class="headerlink" title="プロキシー設定"></a>プロキシー設定</h2><h4 id="1-次のコマンドを使って「-etc-apt-apt-conf-d-」ディレクトリに入る"><a href="#1-次のコマンドを使って「-etc-apt-apt-conf-d-」ディレクトリに入る" class="headerlink" title="1.次のコマンドを使って「/etc/apt/apt.conf.d/」ディレクトリに入る"></a>1.次のコマンドを使って「/etc/apt/apt.conf.d/」ディレクトリに入る</h4><p><code>cd /etc/apt/apt.conf.d/</code></p><h4 id="2-「10proxy」という名前のファイルを作る"><a href="#2-「10proxy」という名前のファイルを作る" class="headerlink" title="2.「10proxy」という名前のファイルを作る"></a>2.「10proxy」という名前のファイルを作る</h4><p>nanoプログラムを利用して、次のコマンドでファイルを作る。</p><p><code>sudo nano /etc/apt/apt.conf.d/10proxy</code></p><h4 id="3-プロキシーの設定を入力する"><a href="#3-プロキシーの設定を入力する" class="headerlink" title="3.プロキシーの設定を入力する"></a>3.プロキシーの設定を入力する</h4><p>プロキシーの設定テキストを”10proxy”ファイルに入れる。</p><p><code>Acquire::http::Proxy &quot;http://202.18.172.35:80&quot;;</code></p><h4 id="4-ファイルを保存する"><a href="#4-ファイルを保存する" class="headerlink" title="4.ファイルを保存する"></a>4.ファイルを保存する</h4><p>「Crl」キーと「O」キーを同時に押し、ファイル名を確認して「Enter」キーで保存する。<br>「Crl」キーと「X」キーを同時に押してnanoを終了、ターミナルに戻る。</p><h4 id="5-RaspberryPiを再起動する"><a href="#5-RaspberryPiを再起動する" class="headerlink" title="5.RaspberryPiを再起動する"></a>5.RaspberryPiを再起動する</h4><h2 id="再起動でプロキシーの設定を有効させる。"><a href="#再起動でプロキシーの設定を有効させる。" class="headerlink" title="再起動でプロキシーの設定を有効させる。"></a>再起動でプロキシーの設定を有効させる。</h2><h5 id="References-参考文献："><a href="#References-参考文献：" class="headerlink" title="References　参考文献："></a>References　参考文献：</h5><p><a href="http://mrchrisjbailey.co.uk/2013/03/19/connecting-raspberry-pi-through-school-proxy/" target="_blank" rel="noopener">http://mrchrisjbailey.co.uk/2013/03/19/connecting-raspberry-pi-through-school-proxy/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;プロキシー設定&quot;&gt;&lt;a href=&quot;#プロキシー設定&quot; class=&quot;headerlink&quot; title=&quot;プロキシー設定&quot;&gt;&lt;/a&gt;プロキシー設定&lt;/h2&gt;&lt;h4 id=&quot;1-次のコマンドを使って「-etc-apt-apt-conf-d-」ディレクトリに入る&quot;&gt;
       
     
     </summary>
