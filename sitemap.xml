@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/wiki/Raspberry_Pi_PCR/Raspberry_Pi_Server/</loc>
+    
+    <lastmod>2020-02-28T18:55:10.630Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/wiki/Note%20Collections/Codes/index/</loc>
     
     <lastmod>2020-02-26T10:35:54.320Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://yoursite.com/wiki/Raspberry_Pi_PCR/References/</loc>
     
     <lastmod>2020-02-26T10:25:40.527Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/wiki/Raspberry_Pi_PCR/Raspberry_Pi_Server/</loc>
-    
-    <lastmod>2020-02-06T15:48:47.468Z</lastmod>
     
   </url>
   
