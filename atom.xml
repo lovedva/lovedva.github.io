@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-26T10:25:40.527Z</updated>
+  <updated>2020-02-29T15:13:40.799Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/wiki/Note%20Collections/Codes/infront/bootstrap/"/>
+    <id>http://yoursite.com/wiki/Note%20Collections/Codes/infront/bootstrap/</id>
+    <published>2020-02-29T15:12:38.665Z</published>
+    <updated>2020-02-29T15:13:40.799Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="title：Bootstrap4"><a href="#title：Bootstrap4" class="headerlink" title="title：Bootstrap4"></a>title：Bootstrap4</h2><p>Bootstrap4<br><a href="http://code.z01.com/v4/" target="_blank" rel="noopener">http://code.z01.com/v4/</a><br>zico图标 <a href="http://ico.z01.com/" target="_blank" rel="noopener">http://ico.z01.com/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;h2 id=&quot;title：Bootstrap4&quot;&gt;&lt;a href=&quot;#title：Bootstrap4&quot; class=&quot;headerlink&quot; title=&quot;title：Bootstrap4&quot;&gt;&lt;/a&gt;title：Bootstrap4&lt;/h2&gt;&lt;p&gt;Bootstrap
+      
+    
+    </summary>
+    
+    
+      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
+    
+      <category term="Codes" scheme="http://yoursite.com/categories/Note-Collections/Codes/"/>
+    
+      <category term="infront" scheme="http://yoursite.com/categories/Note-Collections/Codes/infront/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Refences Log</title>
@@ -516,35 +545,6 @@
       
         &lt;p&gt;##成员变量和局部变量&lt;br&gt;package com.itheima_04;&lt;/p&gt;
 &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
-    
-      <category term="JavaEE 学习笔记" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="02-2.面向对象-封装" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/05-private%E5%85%B3%E9%94%AE%E5%AD%97/"/>
-    <id>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/05-private%E5%85%B3%E9%94%AE%E5%AD%97/</id>
-    <published>2019-09-19T00:06:58.633Z</published>
-    <updated>2019-09-19T00:06:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="private关键字"><a href="#private关键字" class="headerlink" title="private关键字"></a>private关键字</h2><p>package com.itheima_05;<br>/*    </p><ul><li><p>学生类    </p></li><li></li><li><p>通过对象直接访问成员变量，会存在数据安全问题    </p></li><li><p>这个时候，我们就想能不能不让外界的对象直接访问成员变量呢?    </p></li><li><p>能。    </p></li><li><p>如何实现呢?    </p></li><li><p>private关键字    </p></li><li></li><li><p>private:    </p></li><li><p>是一个修饰符    </p></li><li><p>可以修饰成员变量，也可以修饰成员方法    </p></li><li><p>被private修饰的成员只能在本类中被访问    </p></li><li></li><li><p>针对private修饰的成员变量，我们会相应的提供getXxx()和setXxx()用于获取和设置成员变量的值,方法用public修饰    </p></li><li><p>/<br>public class Student {<br>  String name;<br>  //int age;<br>  private int age;    </p><p>  public void setAge(int a) {    </p><pre><code>if(a&lt;0 || a&gt;200) {        System.out.println(&quot;你给的年龄有误&quot;);    }else {        age = a;    }    </code></pre><p>  }    </p><p>  public int getAge() {    </p><pre><code>return age;    </code></pre><p>  }    </p><p>  public void show() {    </p><pre><code>System.out.println(&quot;姓名是：&quot;+name+&quot;,年龄是：&quot;+age);    </code></pre><p>  }<br>}    </p></li></ul><p>package com.itheima_05;<br>/*  </p><ul><li><p>学生类的测试类  </p></li><li><p>/<br>public class StudentDemo {<br>  public static void main(String[] args) {  </p><pre><code>//创建学生对象  Student s = new Student();  s.show();  s.name = &quot;林青霞&quot;;  //s.age = 28;  //s.age = -28;  //s.setAge(-28);  s.setAge(28);  s.show();  </code></pre><p>  }<br>}  </p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;private关键字&quot;&gt;&lt;a href=&quot;#private关键字&quot; class=&quot;headerlink&quot; title=&quot;private关键字&quot;&gt;&lt;/a&gt;private关键字&lt;/h2&gt;&lt;p&gt;package com.itheima_05;&lt;br&gt;/*    &lt;/p&gt;
-
       
     
     </summary>
