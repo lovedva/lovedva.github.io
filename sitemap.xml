@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/Codes/08-Linux/</loc>
+    
+    <lastmod>2020-02-29T13:56:45.071Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/wiki/Raspberry_Pi_PCR/Raspberry_Pi_Server/</loc>
     
     <lastmod>2020-02-29T04:23:41.490Z</lastmod>
@@ -89,13 +96,6 @@
     <loc>http://yoursite.com/wiki/Note%20Collections/Codes/04-Git/</loc>
     
     <lastmod>2020-01-23T13:32:47.057Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/wiki/Note%20Collections/Codes/08-Linux/</loc>
-    
-    <lastmod>2020-01-23T13:23:02.405Z</lastmod>
     
   </url>
   
