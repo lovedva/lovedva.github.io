@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-29T15:45:59.896Z</updated>
+  <updated>2020-03-02T02:09:35.925Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/wiki/Note%20Collections/Codes/infront/js/"/>
+    <id>http://yoursite.com/wiki/Note%20Collections/Codes/infront/js/</id>
+    <published>2020-03-02T02:09:09.042Z</published>
+    <updated>2020-03-02T02:09:35.925Z</updated>
+    
+    <content type="html"><![CDATA[<p>===<br>title:JS<br>===</p><h3 id="anxios"><a href="#anxios" class="headerlink" title="anxios"></a>anxios</h3><p><a href="http://www.axios-js.com/zh-cn/docs/" target="_blank" rel="noopener">http://www.axios-js.com/zh-cn/docs/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;===&lt;br&gt;title:JS&lt;br&gt;===&lt;/p&gt;
+&lt;h3 id=&quot;anxios&quot;&gt;&lt;a href=&quot;#anxios&quot; class=&quot;headerlink&quot; title=&quot;anxios&quot;&gt;&lt;/a&gt;anxios&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.axio
+      
+    
+    </summary>
+    
+    
+      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
+    
+      <category term="Codes" scheme="http://yoursite.com/categories/Note-Collections/Codes/"/>
+    
+      <category term="infront" scheme="http://yoursite.com/categories/Note-Collections/Codes/infront/"/>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -516,35 +545,6 @@
       
         &lt;h2 id=&quot;成员变量私有标准代码&quot;&gt;&lt;a href=&quot;#成员变量私有标准代码&quot; class=&quot;headerlink&quot; title=&quot;成员变量私有标准代码&quot;&gt;&lt;/a&gt;成员变量私有标准代码&lt;/h2&gt;&lt;p&gt;package com.itheima_06;&lt;br&gt;/*    &lt;/p&gt;
 
-      
-    
-    </summary>
-    
-    
-      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
-    
-      <category term="JavaEE 学习笔记" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="02-2.面向对象-封装" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/04-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E5%92%8C%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F/"/>
-    <id>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/04-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E5%92%8C%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F/</id>
-    <published>2019-09-19T00:06:58.633Z</published>
-    <updated>2019-09-19T00:06:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>##成员变量和局部变量<br>package com.itheima_04;</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * 成员变量和局部变量的区别：</span></span><br><span class="line"><span class="comment"> * A:在类中的位置不同</span></span><br><span class="line"><span class="comment"> * 成员变量：类中，方法外</span></span><br><span class="line"><span class="comment"> * 局部变量：方法中或者方法声明上(形式参数)</span></span><br><span class="line"><span class="comment"> * B:在内存中的位置不同</span></span><br><span class="line"><span class="comment"> * 成员变量：堆内存</span></span><br><span class="line"><span class="comment"> * 局部变量：栈内存</span></span><br><span class="line"><span class="comment"> * C:生命周期不同</span></span><br><span class="line"><span class="comment"> * 成员变量：随着对象的创建而存在，随着对象的消失而消失</span></span><br><span class="line"><span class="comment"> * 局部变量：随着方法的调用而存在，随着方法的调用完毕而消失</span></span><br><span class="line"><span class="comment"> * D:初始化值的问题</span></span><br><span class="line"><span class="comment"> * 成员变量：有默认值</span></span><br><span class="line"><span class="comment"> * 局部变量：没有默认值。必须先定义，赋值，最后使用</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Variable</span> </span>&#123;</span><br><span class="line"><span class="keyword">int</span> x;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">show</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="keyword">int</span> y = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">System.out.println(x);</span><br><span class="line">System.out.println(y);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;##成员变量和局部变量&lt;br&gt;package com.itheima_04;&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;
       
     
     </summary>
