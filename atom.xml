@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-03T01:32:03.723Z</updated>
+  <updated>2020-03-13T23:51:17.362Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>JS</title>
     <link href="http://yoursite.com/wiki/Note%20Collections/Codes/infront/js/"/>
     <id>http://yoursite.com/wiki/Note%20Collections/Codes/infront/js/</id>
     <published>2020-03-02T02:09:09.042Z</published>
-    <updated>2020-03-03T01:32:03.723Z</updated>
+    <updated>2020-03-13T23:51:17.362Z</updated>
     
-    <content type="html"><![CDATA[<p>===<br>title:JS<br>===</p><h3 id="anxios"><a href="#anxios" class="headerlink" title="anxios"></a>anxios</h3><p><a href="http://www.axios-js.com/zh-cn/docs/" target="_blank" rel="noopener">http://www.axios-js.com/zh-cn/docs/</a></p><p>取消ajax请求<br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a><br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a></p><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><p><a href="https://qiita.com/akifo/items/b92a2c25cd130072b32c" target="_blank" rel="noopener">https://qiita.com/akifo/items/b92a2c25cd130072b32c</a></p><p>####<br>v-bind指令中，可以写合法的js表达式</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="anxios"><a href="#anxios" class="headerlink" title="anxios"></a>anxios</h3><p><a href="http://www.axios-js.com/zh-cn/docs/" target="_blank" rel="noopener">http://www.axios-js.com/zh-cn/docs/</a></p><p>取消ajax请求<br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a><br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a></p><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><p><a href="https://qiita.com/akifo/items/b92a2c25cd130072b32c" target="_blank" rel="noopener">https://qiita.com/akifo/items/b92a2c25cd130072b32c</a></p><p>####<br>v-bind指令中，可以写合法的js表达式</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;===&lt;br&gt;title:JS&lt;br&gt;===&lt;/p&gt;
-&lt;h3 id=&quot;anxios&quot;&gt;&lt;a href=&quot;#anxios&quot; class=&quot;headerlink&quot; title=&quot;anxios&quot;&gt;&lt;/a&gt;anxios&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.axio
+        &lt;h3 id=&quot;anxios&quot;&gt;&lt;a href=&quot;#anxios&quot; class=&quot;headerlink&quot; title=&quot;anxios&quot;&gt;&lt;/a&gt;anxios&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.axios-js.com/zh-cn/docs/&quot; target=&quot;
       
     
     </summary>
@@ -46,20 +45,19 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>Bootstrap4</title>
     <link href="http://yoursite.com/wiki/Note%20Collections/Codes/infront/bootstrap/"/>
     <id>http://yoursite.com/wiki/Note%20Collections/Codes/infront/bootstrap/</id>
     <published>2020-02-29T15:12:38.665Z</published>
-    <updated>2020-02-29T15:45:59.896Z</updated>
+    <updated>2020-03-13T23:50:54.632Z</updated>
     
-    <content type="html"><![CDATA[<hr><h2 id="title：Bootstrap4"><a href="#title：Bootstrap4" class="headerlink" title="title：Bootstrap4"></a>title：Bootstrap4</h2><p>Bootstrap4<br><a href="http://code.z01.com/v4/" target="_blank" rel="noopener">http://code.z01.com/v4/</a><br>zico图标<br><a href="http://ico.z01.com/" target="_blank" rel="noopener">http://ico.z01.com/</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Bootstrap4<br><a href="http://code.z01.com/v4/" target="_blank" rel="noopener">http://code.z01.com/v4/</a><br>zico图标<br><a href="http://ico.z01.com/" target="_blank" rel="noopener">http://ico.z01.com/</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;hr&gt;
-&lt;h2 id=&quot;title：Bootstrap4&quot;&gt;&lt;a href=&quot;#title：Bootstrap4&quot; class=&quot;headerlink&quot; title=&quot;title：Bootstrap4&quot;&gt;&lt;/a&gt;title：Bootstrap4&lt;/h2&gt;&lt;p&gt;Bootstrap
+        &lt;p&gt;Bootstrap4&lt;br&gt;&lt;a href=&quot;http://code.z01.com/v4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://code.z01.com/v4/&lt;/a&gt;&lt;br&gt;zico图标&lt;br&gt;&lt;a href=&quot;http://i
       
     
     </summary>
