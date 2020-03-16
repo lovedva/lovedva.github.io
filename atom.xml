@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-13T23:51:17.362Z</updated>
+  <updated>2020-03-16T11:08:46.323Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Flask</title>
+    <link href="http://yoursite.com/wiki/Note%20Collections/Codes/Flask/"/>
+    <id>http://yoursite.com/wiki/Note%20Collections/Codes/Flask/</id>
+    <published>2020-03-16T07:25:20.109Z</published>
+    <updated>2020-03-16T11:08:46.323Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="websocket"><a href="#websocket" class="headerlink" title="websocket"></a>websocket</h2><p><a href="https://blog.csdn.net/u011146423/article/details/88622881" target="_blank" rel="noopener">https://blog.csdn.net/u011146423/article/details/88622881</a><br><a href="https://pypi.org/project/gevent-websocket/" target="_blank" rel="noopener">https://pypi.org/project/gevent-websocket/</a><br>api：<br><a href="https://github.com/jgelens/gevent-websocket" target="_blank" rel="noopener">https://github.com/jgelens/gevent-websocket</a></p><p>多线程<br><a href="https://medium.com/@kendhia/run-python-webserver-flask-as-a-websocket-client-also-175c130f7ca4" target="_blank" rel="noopener">https://medium.com/@kendhia/run-python-webserver-flask-as-a-websocket-client-also-175c130f7ca4</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;websocket&quot;&gt;&lt;a href=&quot;#websocket&quot; class=&quot;headerlink&quot; title=&quot;websocket&quot;&gt;&lt;/a&gt;websocket&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/u011146423/
+      
+    
+    </summary>
+    
+    
+      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
+    
+      <category term="Codes" scheme="http://yoursite.com/categories/Note-Collections/Codes/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>JS</title>
@@ -514,35 +540,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;构造方法：  &lt;/p&gt;
 &lt;/
-      
-    
-    </summary>
-    
-    
-      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
-    
-      <category term="JavaEE 学习笔记" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="02-2.面向对象-封装" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/06-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E7%A7%81%E6%9C%89%E7%9A%84%E6%A0%87%E5%87%86%E4%BB%A3%E7%A0%81/"/>
-    <id>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/06-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E7%A7%81%E6%9C%89%E7%9A%84%E6%A0%87%E5%87%86%E4%BB%A3%E7%A0%81/</id>
-    <published>2019-09-19T00:06:58.634Z</published>
-    <updated>2019-09-19T00:06:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="成员变量私有标准代码"><a href="#成员变量私有标准代码" class="headerlink" title="成员变量私有标准代码"></a>成员变量私有标准代码</h2><p>package com.itheima_06;<br>/*    </p><ul><li><p>学生类    </p></li><li><p>/<br>public class Student {<br>  private String name;<br>  private int age;    </p><p>  public void setName(String n) {    </p><pre><code>name = n;    </code></pre><p>  }    </p><p>  public String getName() {    </p><pre><code>return name;    </code></pre><p>  }    </p><p>  public void setAge(int a) {    </p><pre><code>age = a;    </code></pre><p>  }    </p><p>  public int getAge() {    </p><pre><code>return age;    </code></pre><p>  }<br>}    </p></li></ul><p>package com.itheima_06;<br>/*    </p><ul><li><p>学生类的测试类    </p></li><li><p>/<br>public class StudentDemo {<br>  public static void main(String[] args) {    </p><pre><code>//创建对象    Student s = new Student();    System.out.println(s.getName()+&quot;---&quot;+s.getAge());    s.setName(&quot;林青霞&quot;);    s.setAge(28);    System.out.println(s.getName()+&quot;---&quot;+s.getAge());    </code></pre><p>  }<br>}    </p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;成员变量私有标准代码&quot;&gt;&lt;a href=&quot;#成员变量私有标准代码&quot; class=&quot;headerlink&quot; title=&quot;成员变量私有标准代码&quot;&gt;&lt;/a&gt;成员变量私有标准代码&lt;/h2&gt;&lt;p&gt;package com.itheima_06;&lt;br&gt;/*    &lt;/p&gt;
-
       
     
     </summary>
