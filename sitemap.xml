@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2020-01-16T16:32:44.547Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2020-01-16T16:32:44.547Z</lastmod>
     
@@ -296,14 +296,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/11-1.11%20Java%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/</loc>
+    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/12-1.12%20%E5%87%BD%E6%95%B0/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/12-1.12%20%E5%87%BD%E6%95%B0/</loc>
+    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01-1.%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/11-1.11%20Java%E7%9A%84%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
     
@@ -380,13 +380,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/09-%E6%A0%87%E5%87%86%E7%B1%BB%E5%86%99%E6%B3%95%E5%92%8C%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2019-09-19T00:06:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/10-%E7%B1%BB%E5%90%8D%E4%BD%9C%E4%B8%BA%E5%BD%A2%E5%BC%8F%E5%8F%82%E6%95%B0%E5%92%8C%E8%BF%94%E5%9B%9E%E5%80%BC/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
@@ -394,14 +387,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/03-%E5%B8%B8%E7%94%A8API/01-API-StringBuilder/</loc>
+    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/09-%E6%A0%87%E5%87%86%E7%B1%BB%E5%86%99%E6%B3%95%E5%92%8C%E6%B5%8B%E8%AF%95/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/04-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E7%BB%A7%E6%89%BF&%E5%A4%9A%E6%80%81/01-%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/03-%E5%B8%B8%E7%94%A8API/01-API-StringBuilder/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
     
@@ -416,6 +409,13 @@
   
   <url>
     <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/03-%E5%B8%B8%E7%94%A8API/03-IO%E6%B5%81/</loc>
+    
+    <lastmod>2019-09-19T00:06:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/04-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E7%BB%A7%E6%89%BF&%E5%A4%9A%E6%80%81/01-%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2019-09-19T00:06:58.000Z</lastmod>
     
