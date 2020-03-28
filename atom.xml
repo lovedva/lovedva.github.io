@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-28T00:06:55.617Z</updated>
+  <updated>2020-03-28T02:10:13.710Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>＊PCR/Pi Control Panelの使い方</title>
+    <link href="http://yoursite.com/wiki/%EF%BC%8ARaspberry_Pi_PCR/pcr_system/"/>
+    <id>http://yoursite.com/wiki/%EF%BC%8ARaspberry_Pi_PCR/pcr_system/</id>
+    <published>2020-03-28T02:05:18.863Z</published>
+    <updated>2020-03-28T02:10:13.710Z</updated>
+    
+    <content type="html"><![CDATA[<p>预留</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;预留&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="＊Raspberry_Pi_PCR" scheme="http://yoursite.com/categories/%EF%BC%8ARaspberry-Pi-PCR/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>开发日记</title>
@@ -503,36 +528,6 @@
         &lt;h2 id=&quot;标准类写法和测试&quot;&gt;&lt;a href=&quot;#标准类写法和测试&quot; class=&quot;headerlink&quot; title=&quot;标准类写法和测试&quot;&gt;&lt;/a&gt;标准类写法和测试&lt;/h2&gt;&lt;p&gt;package com.itheima_09;&lt;br&gt;/*  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
-    
-      <category term="JavaEE 学习笔记" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="02-2.面向对象-封装" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/07-this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
-    <id>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/07-this%E5%85%B3%E9%94%AE%E5%AD%97/</id>
-    <published>2019-09-19T00:06:58.635Z</published>
-    <updated>2019-09-19T00:06:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h2><p>package com.itheima_07;<br>/*  </p><ul><li><p>学生类  </p></li><li></li><li><p>起名字我们要求做到见名知意。  </p></li><li><p>而我们现在的代码中的n和a就没有做到见名知意，所以我要改进。  </p></li><li></li><li><p>如果有局部变量名和成员变量名相同，在局部使用的时候，采用的是就近的原则。  </p></li><li></li><li><p>我们有没有办法把局部变量的name赋值给成员变量的name呢?  </p></li><li><p>有。  </p></li><li></li><li><p>什么办法呢?  </p></li><li><p>用this关键字就可以解决这个问题  </p></li><li></li><li><p>this:代表所在类的对象引用  </p></li><li><p>方法被哪个对象调用，this就代表那个对象  </p></li><li></li><li><p>使用场景：  </p></li><li><p>局部变量隐藏成员变量  </p></li><li><p>/<br>public class Student {<br>  private String name;<br>  private int age;  </p><p>  public void setName(String name) { //“林青霞”  </p><pre><code>//name = name;  this.name = name;  </code></pre><p>  }  </p><p>  public String getName() {  </p><pre><code>return name;  </code></pre><p>  }  </p><p>  public void setAge(int age) {  </p><pre><code>//age = age;  this.age = age;  </code></pre><p>  }  </p><p>  public int getAge() {  </p><pre><code>return age;  </code></pre><p>  }<br>}  </p></li></ul><p>package com.itheima_07;<br>/*  </p><ul><li><p>学生类的测试类  </p></li><li><p>/<br>public class StudentDemo {<br>  public static void main(String[] args) {  </p><pre><code>//创建对象  Student s = new Student();  System.out.println(s.getName()+&quot;---&quot;+s.getAge());  s.setName(&quot;林青霞&quot;);  s.setAge(28);  System.out.println(s.getName()+&quot;---&quot;+s.getAge());  </code></pre><p>  }<br>}  </p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h2&gt;&lt;p&gt;package com.itheima_07;&lt;br&gt;/*  &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;学生
       
     
     </summary>
