@@ -46,15 +46,15 @@
     <link href="http://yoursite.com/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/mydairy/"/>
     <id>http://yoursite.com/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/mydairy/</id>
     <published>2020-03-28T00:02:59.784Z</published>
-    <updated>2020-03-28T00:06:55.617Z</updated>
+    <updated>2020-03-28T23:50:51.113Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="2020-3-28"><a href="#2020-3-28" class="headerlink" title="2020.3.28"></a>2020.3.28</h3><h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><p>json数组转字符串格式化拼接：<br><a href="https://blog.csdn.net/qq_35366269/article/details/83147072" target="_blank" rel="noopener">https://blog.csdn.net/qq_35366269/article/details/83147072</a><br>1、将对象转换为JSON格式字符串<br>JSON.stringify(object)<br>2、将JSON字符串转换为对象  </p><p>JSON.parse(jsonString);</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">that.OUTPUT=<span class="string">"モータ自動運転開始。運転時間と方向：\n"</span>+<span class="built_in">JSON</span>.stringify(<span class="keyword">this</span>.timelist)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="3-29"><a href="#3-29" class="headerlink" title="3.29"></a>3.29</h3><h4 id="python多进程"><a href="#python多进程" class="headerlink" title="python多进程"></a>python多进程</h4><p>多进程共享实例，全局变量方法<br><a href="https://www.cnblogs.com/lsdb/p/10815319.html" target="_blank" rel="noopener">https://www.cnblogs.com/lsdb/p/10815319.html</a></p><h3 id="2020-3-28"><a href="#2020-3-28" class="headerlink" title="2020.3.28"></a>2020.3.28</h3><h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><p>json数组转字符串格式化拼接：<br><a href="https://blog.csdn.net/qq_35366269/article/details/83147072" target="_blank" rel="noopener">https://blog.csdn.net/qq_35366269/article/details/83147072</a><br>1、将对象转换为JSON格式字符串<br>JSON.stringify(object)<br>2、将JSON字符串转换为对象  </p><p>JSON.parse(jsonString);</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">that.OUTPUT=<span class="string">"モータ自動運転開始。運転時間と方向：\n"</span>+<span class="built_in">JSON</span>.stringify(<span class="keyword">this</span>.timelist)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;2020-3-28&quot;&gt;&lt;a href=&quot;#2020-3-28&quot; class=&quot;headerlink&quot; title=&quot;2020.3.28&quot;&gt;&lt;/a&gt;2020.3.28&lt;/h3&gt;&lt;h4 id=&quot;Vue&quot;&gt;&lt;a href=&quot;#Vue&quot; class=&quot;headerlink
+        &lt;h3 id=&quot;3-29&quot;&gt;&lt;a href=&quot;#3-29&quot; class=&quot;headerlink&quot; title=&quot;3.29&quot;&gt;&lt;/a&gt;3.29&lt;/h3&gt;&lt;h4 id=&quot;python多进程&quot;&gt;&lt;a href=&quot;#python多进程&quot; class=&quot;headerlink&quot; title=
       
     
     </summary>
