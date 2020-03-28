@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-16T11:08:46.323Z</updated>
+  <updated>2020-03-28T00:06:55.617Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开发日记</title>
+    <link href="http://yoursite.com/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/mydairy/"/>
+    <id>http://yoursite.com/wiki/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/mydairy/</id>
+    <published>2020-03-28T00:02:59.784Z</published>
+    <updated>2020-03-28T00:06:55.617Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2020-3-28"><a href="#2020-3-28" class="headerlink" title="2020.3.28"></a>2020.3.28</h3><h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><p>json数组转字符串格式化拼接：<br><a href="https://blog.csdn.net/qq_35366269/article/details/83147072" target="_blank" rel="noopener">https://blog.csdn.net/qq_35366269/article/details/83147072</a><br>1、将对象转换为JSON格式字符串<br>JSON.stringify(object)<br>2、将JSON字符串转换为对象  </p><p>JSON.parse(jsonString);</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">that.OUTPUT=<span class="string">"モータ自動運転開始。運転時間と方向：\n"</span>+<span class="built_in">JSON</span>.stringify(<span class="keyword">this</span>.timelist)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;2020-3-28&quot;&gt;&lt;a href=&quot;#2020-3-28&quot; class=&quot;headerlink&quot; title=&quot;2020.3.28&quot;&gt;&lt;/a&gt;2020.3.28&lt;/h3&gt;&lt;h4 id=&quot;Vue&quot;&gt;&lt;a href=&quot;#Vue&quot; class=&quot;headerlink
+      
+    
+    </summary>
+    
+    
+      <category term="开发日记" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Flask</title>
@@ -47,9 +71,9 @@
     <link href="http://yoursite.com/wiki/Note%20Collections/Codes/infront/js/"/>
     <id>http://yoursite.com/wiki/Note%20Collections/Codes/infront/js/</id>
     <published>2020-03-02T02:09:09.042Z</published>
-    <updated>2020-03-13T23:51:17.362Z</updated>
+    <updated>2020-03-28T00:02:03.932Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="anxios"><a href="#anxios" class="headerlink" title="anxios"></a>anxios</h3><p><a href="http://www.axios-js.com/zh-cn/docs/" target="_blank" rel="noopener">http://www.axios-js.com/zh-cn/docs/</a></p><p>取消ajax请求<br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a><br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a></p><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><p><a href="https://qiita.com/akifo/items/b92a2c25cd130072b32c" target="_blank" rel="noopener">https://qiita.com/akifo/items/b92a2c25cd130072b32c</a></p><p>####<br>v-bind指令中，可以写合法的js表达式</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="anxios"><a href="#anxios" class="headerlink" title="anxios"></a>anxios</h3><p><a href="http://www.axios-js.com/zh-cn/docs/" target="_blank" rel="noopener">http://www.axios-js.com/zh-cn/docs/</a></p><p>取消ajax请求<br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a><br><a href="https://blog.csdn.net/wopelo/article/details/79802585" target="_blank" rel="noopener">https://blog.csdn.net/wopelo/article/details/79802585</a></p><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><p><a href="https://qiita.com/akifo/items/b92a2c25cd130072b32c" target="_blank" rel="noopener">https://qiita.com/akifo/items/b92a2c25cd130072b32c</a></p><p>v-bind指令中，可以写合法的js表达式</p>]]></content>
     
     <summary type="html">
     
@@ -509,37 +533,6 @@
         &lt;h2 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h2&gt;&lt;p&gt;package com.itheima_07;&lt;br&gt;/*  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;学生
-      
-    
-    </summary>
-    
-    
-      <category term="Note Collections" scheme="http://yoursite.com/categories/Note-Collections/"/>
-    
-      <category term="JavaEE 学习笔记" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="02-2.面向对象-封装" scheme="http://yoursite.com/categories/Note-Collections/JavaEE-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/08-%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/"/>
-    <id>http://yoursite.com/wiki/Note%20Collections/JavaEE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/02-2.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/08-%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/</id>
-    <published>2019-09-19T00:06:58.635Z</published>
-    <updated>2019-09-19T00:06:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h2><p>package com.itheima_08;<br>/*  </p><ul><li><p>构造方法：  </p></li><li><p>给对象的数据进行初始化  </p></li><li></li><li><p>格式：  </p></li><li><p>方法名和类名相同  </p></li><li><p>没有返回值类型，连void都不能写  </p></li><li><p>没有具体的返回值  </p></li><li></li><li><p>构造方法的注意事项：  </p></li><li><p>A:如果我们没有给出构造方法，系统将会提供一个默认的无参构造方法供我们使用。  </p></li><li><p>B:如果我们给出了构造方法，系统将不在提供默认的无参构造方法供我们使用。  </p></li><li><p>这个时候，如果我们想使用无参构造方法，就必须自己提供。  </p></li><li><p>推荐：自己给无参构造方法  </p></li><li><p>C:构造方法也是可以重载的  </p></li><li></li><li><p>成员变量赋值：  </p></li><li><p>A:setXxx()方法  </p></li><li><p>B:带参构造方法  </p></li><li><p>/<br>public class Student {<br>  private String name;<br>  private int age;  </p><p>  /*<br>  public Student() {  </p><pre><code>System.out.println(&quot;这是构造方法&quot;);  </code></pre><p>  }<br>  */  </p><p>  public Student() {}  </p><p>  public Student(String name) {  </p><pre><code>this.name = name;  </code></pre><p>  }  </p><p>  public Student(int age) {  </p><pre><code>this.age = age;  </code></pre><p>  }  </p><p>  public Student(String name,int age) {  </p><pre><code>this.name = name;  this.age = age;  </code></pre><p>  }  </p><p>  public void show() {  </p><pre><code>System.out.println(name+&quot;---&quot;+age);  </code></pre><p>  }<br>}  </p></li></ul><p>package com.itheima_08;  </p><p>public class StudentDemo {<br>    public static void main(String[] args) {<br>        //如何调用构造方法呢?<br>        //通过new关键字调用<br>        //格式：类名 对象名 = new 构造方法(…);<br>        Student s = new Student();<br>        s.show();  </p><pre><code>    //public Student(String name)      Student s2 = new Student(&quot;林青霞&quot;);      s2.show();      //public Student(int age)      Student s3 = new Student(28);      s3.show();      //public Student(String name,int age)      Student s4 = new Student(&quot;林青霞&quot;,28);      s4.show();  }  </code></pre><p>}  </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;构造方法&quot;&gt;&lt;a href=&quot;#构造方法&quot; class=&quot;headerlink&quot; title=&quot;构造方法&quot;&gt;&lt;/a&gt;构造方法&lt;/h2&gt;&lt;p&gt;package com.itheima_08;&lt;br&gt;/*  &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;构造方法：  &lt;/p&gt;
-&lt;/
       
     
     </summary>
