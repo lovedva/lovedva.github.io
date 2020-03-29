@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-28T02:10:13.710Z</updated>
+  <updated>2020-03-29T22:36:25.068Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://yoursite.com/wiki/%EF%BC%8ARaspberry_Pi_PCR/pcr_system/"/>
     <id>http://yoursite.com/wiki/%EF%BC%8ARaspberry_Pi_PCR/pcr_system/</id>
     <published>2020-03-28T02:05:18.863Z</published>
-    <updated>2020-03-28T02:10:13.710Z</updated>
+    <updated>2020-03-29T22:36:25.068Z</updated>
     
-    <content type="html"><![CDATA[<p>预留</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="温度の表示"><a href="#温度の表示" class="headerlink" title="温度の表示"></a>温度の表示</h2><p>1.5sおきに，温度の表示を更新する。</p><h2 id="設定初期化"><a href="#設定初期化" class="headerlink" title="設定初期化"></a>設定初期化</h2><p>すべての設定を初期化する。</p><h2 id="結果の表示"><a href="#結果の表示" class="headerlink" title="結果の表示"></a>結果の表示</h2><p>操作を表示する。</p><h2 id="モータ設定"><a href="#モータ設定" class="headerlink" title="モータ設定"></a>モータ設定</h2><h3 id="タイマー"><a href="#タイマー" class="headerlink" title="タイマー"></a>タイマー</h3><p>回転の時間を記録する。<br>回転方向と設定された方向が一致すると，回転時間は正になる。<br>回転方向と設定された方向が逆にすると，回転時間はマイナスにる。  </p><h3 id="コントロール"><a href="#コントロール" class="headerlink" title="コントロール"></a>コントロール</h3><p>モータを回転させる。</p><h3 id="自動運転"><a href="#自動運転" class="headerlink" title="自動運転"></a>自動運転</h3><p>繰り返し回数を設定する。<br>モータの回転方法と運転時間と停止時間を設定する。<br><strong>時間は0以下に設定しないでください。</strong><br>入力ボックスをダブルクリックするとタイマーの時間をコピーできる。  </p><h2 id="温度設定"><a href="#温度設定" class="headerlink" title="温度設定"></a>温度設定</h2><p>三つのヒータの加熱温度を設定する。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;预留&lt;/p&gt;
-
+        &lt;h2 id=&quot;温度の表示&quot;&gt;&lt;a href=&quot;#温度の表示&quot; class=&quot;headerlink&quot; title=&quot;温度の表示&quot;&gt;&lt;/a&gt;温度の表示&lt;/h2&gt;&lt;p&gt;1.5sおきに，温度の表示を更新する。&lt;/p&gt;
+&lt;h2 id=&quot;設定初期化&quot;&gt;&lt;a href=&quot;#設定初期化&quot; cl
       
     
     </summary>
